@@ -1,0 +1,67 @@
+.main {
+  margin: 100px auto;
+  max-width: 900px;
+}
+.main .head h1 {
+  font-size: 32px;
+}
+.main .head .bott {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.main .head button {
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.main .head .bott span {
+  margin-top: 5px;
+}
+.main .bottom {
+  margin-top: 50px;
+}
+.main .bottom h1 {
+  margin: 10px 0;
+}
+.main .gallery {
+  display: flex;
+  gap: 10px;
+  max-width: 1000px;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.main .gallery .main-img {
+  width: 500px;
+  height: 250px;
+}
+.main .gallery .main-img img {
+  width: 500px;
+}
+.main .gallery .more {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.main .gallery .more img {
+  width: 190px;
+  height: 136px;
+}
+@media screen and (max-width: 768px) {
+  .main .gallery {
+    gap: 50px;
+    flex-direction: column;
+    border-radius: 0;
+  }
+  .main .gallery .more {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .gallery .more img {
+    width: 100px;
+  }
+}

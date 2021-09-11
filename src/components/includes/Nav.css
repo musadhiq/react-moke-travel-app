@@ -1,0 +1,37 @@
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.wrapper header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+.wrapper header .left h1 {
+  width: 150px;
+}
+.wrapper header .left h1 img {
+  display: block;
+  width: 100%;
+}
+.wrapper header .right button {
+  padding: 15px 40px;
+  background: #006bf7;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .wrapper header .right button {
+    padding: 10px 30px;
+  }
+  .wrapper header .left h1 img {
+    width: 77%;
+  }
+}

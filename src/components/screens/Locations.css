@@ -1,0 +1,35 @@
+.head {
+  margin: 50px 0;
+}
+.head h1 {
+  font-size: 30px;
+}
+.head p {
+  color: #cfcfcf;
+}
+.items {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.items .item {
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.items .item .top {
+  width: 300px;
+}
+.items .item .top img {
+  display: block;
+  width: 100%;
+}
+.items .item .middle {
+  margin: 5px 0;
+}
+.items .item .bottom img {
+  width: 12px;
+  margin-right: 5px;
+}
