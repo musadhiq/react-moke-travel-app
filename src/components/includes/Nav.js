@@ -28,7 +28,7 @@ export default function Nav() {
                 <button onClick={HandleLogout}>Logout</button>
               </Link>
             ) : (
-              <Link to="/login">
+              <Link to="/auth/login">
                 <button>Login</button>
               </Link>
             )}
